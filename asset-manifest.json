@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Our-Animals-React/static/css/main.f74102e5.css",
+    "main.js": "/Our-Animals-React/static/js/main.10e976b8.js",
+    "static/media/night.jpg": "/Our-Animals-React/static/media/night.17867d9c47dc86e14283.jpg",
+    "static/media/bufflo.jpg": "/Our-Animals-React/static/media/bufflo.9e60f6a1bd00d79f92ce.jpg",
+    "static/media/elephant.jpg": "/Our-Animals-React/static/media/elephant.0b7d578f6caf7cb1e4a1.jpg",
+    "static/media/crock.jpg": "/Our-Animals-React/static/media/crock.dd52d390d8eaa4f2a56c.jpg",
+    "static/media/IdontKnow.jpg": "/Our-Animals-React/static/media/IdontKnow.6311d3b4567403891174.jpg",
+    "static/media/big_white_rhino.png": "/Our-Animals-React/static/media/big_white_rhino.b441a48277d1b54ae5c8.png",
+    "static/media/tiger.jpg": "/Our-Animals-React/static/media/tiger.20b3da12cc8f48140ff6.jpg",
+    "static/media/lion.jpg": "/Our-Animals-React/static/media/lion.818b81dbd3cf9c9d16d2.jpg",
+    "index.html": "/Our-Animals-React/index.html",
+    "main.f74102e5.css.map": "/Our-Animals-React/static/css/main.f74102e5.css.map",
+    "main.10e976b8.js.map": "/Our-Animals-React/static/js/main.10e976b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f74102e5.css",
+    "static/js/main.10e976b8.js"
+  ]
+}
