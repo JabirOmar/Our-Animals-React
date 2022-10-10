@@ -6,3 +6,5 @@
 - Explore
 - Todo List
 - Register
+
+## Home page
