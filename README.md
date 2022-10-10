@@ -2,4 +2,7 @@
 
 ## Website Feautures
 
-1 Home page
+- Home page
+- Explore
+- Todo List
+- Register
