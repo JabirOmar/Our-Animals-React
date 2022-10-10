@@ -1,0 +1,92 @@
+#form_container {
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid black;
+    padding: 15px 30px;
+}
+
+#form_title {
+    padding-bottom: 30px;
+}
+
+form input {
+    width: 100%;
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1.5px solid black;
+    outline: none;
+}
+
+#name_div {
+    height: 50px;
+    position: relative;
+    font-size: 18px;
+}
+
+#name_div input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-transform: capitalize;
+}
+
+#name_div label {
+    position: absolute;
+    bottom: 0;
+    transition: 0.5s;
+    color: rgb(171, 171, 171);
+}
+#name_div label.active {
+    bottom: 25px;
+    transition: 0.5s;
+    color: green;
+}
+
+#password_div {
+    margin-top: 20px;
+    height: 50px;
+    position: relative;
+}
+
+#password_div input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#password_div label {
+    position: absolute;
+    bottom: 0;
+    transition: 0.5s;
+    color: rgb(171, 171, 171);
+}
+#password_div label.active {
+    bottom: 50%;
+    transition: 0.5s;
+    color: green;
+}
+
+#submit_div {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#submit_div button {
+    padding: 5px 45px;
+    border: none;
+    background-color: lightseagreen;
+}
+
+

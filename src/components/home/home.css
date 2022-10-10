@@ -1,0 +1,110 @@
+#top_container {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing_page {
+    width: 100%;
+    height: 100%;
+    padding: 0 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../../../media/images/explore/big_white_rhino.png);
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#landing_page p {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#landing_page p span {
+    color: lightgreen;
+}
+
+#explore_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 33vh;
+    color: black;
+}
+
+#explore_title h2 span {
+    color: green;
+}
+
+#big_intro_container {
+    width: 100%;
+    padding: 25px 5%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.intro_box {
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    padding: 2%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro_box h2 {
+    color: black;
+    font-size: 25px;
+}
+.intro_box h2 span {
+    color: green;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    height: 180px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer_divs {
+    width: 150px;
+    height: 80%;
+    font-size: 15px;
+}
+
+.footer_divs p span {
+    color: green;
+}
+
+
+
+@media screen and (max-width: 560px) {
+    #big_intro_container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro_box:nth-child(2) {
+        margin: 40px 0;
+    }
+}
+
+
