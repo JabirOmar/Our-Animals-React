@@ -3,6 +3,8 @@ import './animals.css'
 
 function Animals() {
   return (
+    <>
+    <div id='preloader'></div>
     <section id='animal_window_container'>
       <div id='animals_title'>
         <h4>Scroll to the right to see more Images</h4>
@@ -17,8 +19,8 @@ function Animals() {
           <div className='animal_div' id='box_6'></div>
         </div>
       </div>
-      
     </section>
+    </>
   )
 }
 
