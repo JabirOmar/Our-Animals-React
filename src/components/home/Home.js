@@ -6,7 +6,7 @@ function Home() {
     <>
       <div id='top_container'>
         <div id='landing_page'>
-          <p id='intro'><span>Our planet</span> is a beautiful place with a<br/> <span> beautiful Animals</span></p>
+          <p id='intro'><span>Our planet</span> is a beautiful place with a<br/> <span> beautiful Animals.</span></p>
         </div>
       </div>
 
